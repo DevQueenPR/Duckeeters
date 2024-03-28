@@ -64,3 +64,23 @@ a {
     border: 2px solid #141414; 
     border-radius: 10px; 
   }
+
+
+  /* Abimael Video Estilo */
+
+  .video-container {
+    position: relative;
+    width: 80%; /* Adjust the width as needed */
+    padding-bottom: 45%; /* 16:9 Aspect Ratio, adjust if a different aspect ratio is needed */
+    margin: auto; /* Center the container horizontally */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
