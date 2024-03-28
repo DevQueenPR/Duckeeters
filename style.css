@@ -25,3 +25,36 @@ nav {
 .amarillo {
     color: #ffd46d;
 }
+
+
+/*Style Genesis*/
+
+.card{
+    min-height: 200px;
+    max-height: 425px;
+    background-color: #00a2d5;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    overflow: visible;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+  }
+
+.card:hover {
+    transform: scale(1.05); /* Make the card bigger when hovered */
+    transition: transform .2s; /* Animation */
+  }
+
+  @keyframes teeter {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  .hover-move:hover {
+    animation: teeter 0.6s;
+  }

@@ -10,91 +10,81 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <body style="padding-top: 70px;">
-    <nav class="navbar navbar-expand-lg fixed-top bg-light">
-        <div class="container">
-            <img src="/images/the_duckeeters.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            <p class="mb-0 ms-2"><span class="azul" >The</span> <span class="amarillo">Duck</span> <span class="rojo">eeters</span></p>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align-items-center">
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#!"><i class="fas fa-plus-circle pe-2"></i>Proyect Description</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#!"><i class="fas fa-bell pe-2"></i>Members</a>
-              </li>
-          
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Navbar -->
+<body style="padding-top: 70px;">
+  <!--Nav bar-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+            <div class="container">
+                <img src="../images/the_duckeeters.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <p class="mb-0 ms-2"><span class="azul" >The</span> <span class="amarillo">Duck</span><span class="rojo">eeters</span></p>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#!"><i class="fas fa-plus-circle pe-2"></i>Home</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-2" href="#!"><i class="fas fa-plus-circle pe-2"></i>Proyect Description</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-2" href="#!"><i class="fas fa-bell pe-2"></i>Members</a>
+                  </li>
+              
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-      <div class="container">
-        <div class="row">
-            <!-- Card on the left -->
-            <div class="col-md-6">
+    <!--MP3 audio-->
+          <audio id="hover-sound" src="../mp3/quack.mp3" preload="auto"></audio>
+
+          <div class="container mt-4 overflow-hidden">
+            <div class="row">
+              <!-- Column 1 -->
+              <div class="col-sm-6 mb-4 mb-sm-0">
+                <!-- Card 1 -->
+                <div class="card h-100" onmouseover="playSound()">
+                  <img class="card-img-top hover-move mx-auto" src="../images/quaky.png" alt="Quakie the duck">
+                </div>
+              </div>
+              <!-- Column 2 -->
+              <div class="col-sm-6">
+                <!-- Card 2 -->
+                <a href="/pages/quakie_manual.html">
+                <div class="card mb-4">
+                  <div class="card-body d-flex justify-content-center align-items-center"> 
+                    <h5 class="card-title">Manual</h5>
+                  </div>
+                </div>
+            </a>
+                <!-- Card 3 -->
                 <div class="card">
-                    <img src="your-image-source.jpg" class="card-img-top" alt="Description">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  <div class="card-body d-flex justify-content-center align-items-center"> 
+                    <h5 class="card-title">Video</h5>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- Two cards on the right -->
-            <div class="col-md-6">
-                <!-- First card -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <img src="your-image-source.jpg" class="card-img-top" alt="Description">
-                            <div class="card-body">
-                                <h5 class="card-title">Card Title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Second card -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <img src="your-image-source.jpg" class="card-img-top" alt="Description">
-                            <div class="card-body">
-                                <h5 class="card-title">Card Title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-muted">© 2024 The Duckeeters, Inc</span>
-      </div>
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
-    </footer>
+          </div>
+          
+          <!--Script for audio-->
+          <script>
+            function playSound() {
+              var sound = document.getElementById("hover-sound");
+              sound.play();
+            }
+          </script>
+    
+
+
 </body>
 </html>
