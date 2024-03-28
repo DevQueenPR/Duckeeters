@@ -17,7 +17,7 @@
 
 <body>
   <!--Nav bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container">
       <img src="/Duckeeters/images/the_3ducks.png" alt="Logo" width="80" height="40" class="d-inline-block align-text-top">
       <p class="mb-0 ms-2"><span class="azul" >The</span> <span class="amarillo">Duck</span><span class="rojo">eeters</span></p>
@@ -46,38 +46,49 @@
 
 
     <!--MP3 audio-->
-          <audio id="hover-sound" src="../mp3/quack.mp3" preload="auto"></audio>
+    <audio id="hover-sound" src="../mp3/quack.mp3" preload="auto"></audio>
 
-          <div class="container mt-4 overflow-hidden">
-            <div class="row">
-              <!-- Column 1 -->
-              <div class="col-sm-6 mb-4 mb-sm-0">
-                <!-- Card 1 -->
-                <div class="card h-100" onmouseover="playSound()">
-                  <img class="card-img-top hover-move mx-auto" src="../images/quaky.png" alt="Quakie the duck">
-                </div>
-              </div>
-              <!-- Column 2 -->
-              <div class="col-sm-6">
-                <!-- Card 2 -->
-                <a href="/Duckeeters/Pages/quakie_manual.html">
-                <div class="card mb-4">
-                  <div class="card-body d-flex justify-content-center align-items-center"> 
-                    <h5 class="card-title">Manual</h5>
-                  </div>
-                </div>
-            </a>
-                <!-- Card 3 -->
-                <a href="">
-                  <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center"> 
-                      <h5 class="card-title">Video</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
+    <h1 class="text-center mt-4">
+      <span class="azul">Q</span>
+      <span class="amarillo">u</span>
+      <span class="rojo">A</span>
+      <span class="azul">k</span>
+      <span class="amarillo">y</span>
+    </h1>
+    
+
+    <div class="container mt-4 overflow-hidden text-center">
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-sm-6 mb-4 mb-sm-0">
+          <!-- Card 1 -->
+          <br>
+          <div class="card h-100 bordered-card" onmouseover="playSound()">
+            <img class="card-img-top hover-move mx-auto" src="../images/quaky.png" alt="Quaky the duck">
+          </div>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-sm-6">
+          <!-- Card 2 -->
+          <br>
+          <a href="/Duckeeters/Pages/quakie_manual.html">
+          <div class="card mb-4 bordered-card">
+            <div class="card-body d-flex justify-content-center align-items-center"> 
+              <h5 class="card-title">Manual</h5>
             </div>
           </div>
+      </a>
+          <!-- Card 3 -->
+          <a href="">
+          <div class="card bordered-card">
+            <div class="card-body d-flex justify-content-center align-items-center"> 
+              <h5 class="card-title">Video</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
           
           <!--Script for audio-->
           <script>

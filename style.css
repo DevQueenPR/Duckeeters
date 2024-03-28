@@ -1,6 +1,7 @@
 body 
     {
         font-family: 'Bungee', sans-serif;
+        background-color: #FFFAEE;
 }
 
 main {
@@ -10,7 +11,7 @@ main {
 }
 
 nav {
-    background-color:#fffaee ;
+    background-color:#b9ccff;
     border-bottom: solid;
 }
 
@@ -32,11 +33,11 @@ nav {
 .card{
     min-height: 200px;
     max-height: 425px;
-    background-color: #00a2d5;
+    background-color: #c8d4f7;
     display: flex;
     align-items: center; 
     justify-content: center; 
-    overflow: visible;
+    transition: border 0.2s, min-height 0.2s;
 }
 
 a {
@@ -57,4 +58,9 @@ a {
 
   .hover-move:hover {
     animation: teeter 0.6s;
+  }
+
+  .bordered-card {
+    border: 2px solid #141414; 
+    border-radius: 10px; 
   }
