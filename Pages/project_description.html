@@ -19,43 +19,40 @@
     <!-- Agregar estilos específicos aquí si son necesarios -->
     <style>
         .gray-box {
-            background-color: #f0f0f0; /* Color de fondo gris /
-            padding: 20px; / Ajuste del padding según sea necesario /
-            border-radius: 15px; / Bordes redondeados */
+            background-color: #c8d4f7; 
+            border: 2px solid #141414; 
+            border-radius: 10px;    
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <img src="../images/the_3ducks.png" alt="Logo" width="100" height="auto"
-                class="d-inline-block align-text-top">
-            <p class="mb-0 ms-2"><span class="azul">The</span> <span class="amarillo">Duck</span><span
-                    class="rojo">eeters</span></p>
-
-            <!-- Hamburger menu button (visible on mobile) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./project_description.html">Proyect Description</a>
-                    </li>
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="./members.html">Members</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <img src="../images/the_3ducks.png" alt="Logo" width="100" height="auto" class="d-inline-block align-text-top">
+        <p class="mb-0 ms-2"><span class="azul" >The</span> <span class="amarillo">Duck</span><span class="rojo">eeters</span></p>
+  
+          <!-- Hamburger menu button (visible on mobile) -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto"> 
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./project_description.html">Proyect Description</a>
+                  </li>
+                  <li class="nav-item">
+  
+                    <a class="nav-link" href="./members.html">Members</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
     <main class="container my-5">
         <!-- <h1 class="text-center mb-4"> <span class="rojo">Project </span><span class="azul">Description</span></h1>
  -->
@@ -75,11 +72,11 @@
                 </div>
             </div>
         </div>
-
+<br>
         <!-- Caja de Contenido 1: Imagen a la izquierda, texto a la derecha -->
         <div class="row mb-3 align-items-center">
             <div class="col-md-6">
-                <img src="../images/bricky.png" alt="Descripción de la imagen" class="img-fluid">
+                <img src="../images/bricky_quaky.png" alt="Descripción de la imagen" class="img-fluid">
             </div>
             <div class="col-md-6">
                 <div class="info-box gray-box">
@@ -151,13 +148,13 @@
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../images/carusel4.jpeg" class="d-block w-100" alt="...">
+                <img src="../images/carousel1.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="../images/carusel1.jpeg" class="d-block w-100" alt="...">
+                <img src="../images/carousel2.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="../images/carusel2.jpeg" class="d-block w-100" alt="...">
+                <img src="../images/carousel3.png" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -210,10 +207,11 @@
             </li>
         </ul>
     </footer>
+
     <script>
       var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
-        interval: 2000, // Adjust the interval as needed
-        wrap: true // Whether the carousel should cycle continuously or have hard stops
+        interval: 2000, 
+        wrap: true 
       });
     </script>
     
