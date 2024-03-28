@@ -76,7 +76,9 @@ a {
     font-size: 30px; /* Adjust the font size as needed */
   }
 
-
+  .card-title-index {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
   /* Abimael Video Estilo */
 
   .video-container {
