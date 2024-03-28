@@ -1,8 +1,13 @@
+body {
+    
+        font-family: 'Bungee', sans-serif;
+      
+}
 
 main {
     background-color:#f0e9d6 ;
     width: 100vw;
-    height: 700px;
+    height: fit-content;
 }
 
 nav {
@@ -13,11 +18,11 @@ nav {
 
 
 .rojo {
-    color: #f0e9d6;
+    color: #c32141;
 }
 .azul {
-    color: #f0e9d6;
+    color: #00a2d5;
 }
 .amarillo {
-    color: #f0e9d6;
+    color: #ffd46d;
 }
